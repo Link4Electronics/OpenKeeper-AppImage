@@ -22,5 +22,6 @@ echo "$VERSION" > ~/version
 
 mkdir -p ./AppDir/bin
 wget https://github.com/tonihele/OpenKeeper/releases/download/latest/OpenKeeper.zip
-bsdtar -xvf OpenKeeper.zip --strip-components=1 -C ./AppDir/bin
-rm -f *.zip ./AppDir/bin/bin/OpenKeeper.bat
+bsdtar -xvf OpenKeeper.zip --strip-components=1
+rm -rf *.zip bin lib/*window*.jar lib/*arm32.jar lib/*maco*.jar
+mv -v lib ./AppDir/bin
