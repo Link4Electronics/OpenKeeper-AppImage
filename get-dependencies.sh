@@ -19,3 +19,4 @@ get-debloated-pkgs --add-common --prefer-nano
 mkdir -p ./AppDir/bin
 wget https://github.com/tonihele/OpenKeeper/releases/download/latest/OpenKeeper.zip
 bsdtar -xvf 
+rm -f ./AppDir/bin/bin/OpenKeeper.bat
