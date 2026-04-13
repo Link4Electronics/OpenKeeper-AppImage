@@ -18,5 +18,5 @@ get-debloated-pkgs --add-common --prefer-nano
 # If the application needs to be manually built that has to be done down here
 mkdir -p ./AppDir/bin
 wget https://github.com/tonihele/OpenKeeper/releases/download/latest/OpenKeeper.zip
-bsdtar -xvf 
-rm -f ./AppDir/bin/bin/OpenKeeper.bat
+bsdtar -xvf OpenKeeper.zip --strip-components=1 -C ./AppDir/bin
+rm -f *.zip ./AppDir/bin/bin/OpenKeeper.bat
