@@ -14,7 +14,11 @@ export MAIN_BIN=OpenKeeper
 export DEPLOY_OPENGL=1
 
 # Deploy dependencies
-quick-sharun /PATH/TO/BINARY_AND_LIBRARIES_HERE
+quick-sharun /usr/bin/bin/Openkeeper \
+    /usr/lib/jvm/java*/bin \
+    /usr/lib/jvm/java*/conf \
+    /usr/lib/jvm/java*/legal \
+    /usr/lib/jvm/java*/lib
 
 # Additional changes can be done in between here
 
