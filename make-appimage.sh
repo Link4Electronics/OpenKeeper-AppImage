@@ -10,6 +10,7 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 export ICON=https://raw.githubusercontent.com/tonihele/OpenKeeper/refs/heads/master/assets/Icons/openkeeper256.png
 export DESKTOP=DUMMY
 export MAIN_BIN=OpenKeeper
+export STARTUPWMCLASS=java
 export DEPLOY_OPENGL=1
 
 # Deploy dependencies
