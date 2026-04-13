@@ -13,7 +13,7 @@ export MAIN_BIN=OpenKeeper
 export DEPLOY_OPENGL=1
 
 # Deploy dependencies
-quick-sharun ./AppDir/bin/bin/OpenKeeper \
+quick-sharun ./AppDir/bin/OpenKeeper \
     ./AppDir/bin/lib \
     /usr/lib/jvm/java*/bin \
     /usr/lib/jvm/java*/conf \
