@@ -16,4 +16,6 @@ get-debloated-pkgs --add-common --prefer-nano
 #make-aur-package PACKAGENAME
 
 # If the application needs to be manually built that has to be done down here
+mkdir -p ./AppDir/bin
 wget https://github.com/tonihele/OpenKeeper/releases/download/latest/OpenKeeper.zip
+bsdtar -xvf 
