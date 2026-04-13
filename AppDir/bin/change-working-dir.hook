@@ -1,0 +1,4 @@
+#!/bin/sh
+dir=$HOME/.OpenKeeper
+mkdir -p "$dir"
+cd "$dir"
