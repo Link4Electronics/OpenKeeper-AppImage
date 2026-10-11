@@ -12,10 +12,8 @@ echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
 get-debloated-pkgs --add-common --prefer-nano
 
-# Comment this out if you need an AUR package
-#make-aur-package PACKAGENAME
-
-# If the application needs to be manually built that has to be done down here
+echo "Building OpenKeeper..."
+echo "---------------------------------------------------------------"
 REPO="https://github.com/tonihele/OpenKeeper"
 VERSION="$(git ls-remote "$REPO" HEAD | cut -c 1-9 | head -1)"
 echo "$VERSION" > ~/version
