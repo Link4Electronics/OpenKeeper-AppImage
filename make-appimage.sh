@@ -12,6 +12,11 @@ export DESKTOP=DUMMY
 export MAIN_BIN=OpenKeeper
 export STARTUPWMCLASS=java
 export DEPLOY_OPENGL=1
+export PATH_MAPPING='
+${SHARUN_DIR}/bin/assets:${HOME}/.OpenKeeper/assets
+${SHARUN_DIR}/bin/highscores.dat:${HOME}/.OpenKeeper/highscores.dat
+${SHARUN_DIR}/bin/openkeeper.properties:${HOME}/.OpenKeeper/launcher.properties
+'
 
 # Deploy dependencies
 quick-sharun ./AppDir/bin/OpenKeeper \
