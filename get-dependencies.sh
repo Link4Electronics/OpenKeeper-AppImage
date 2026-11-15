@@ -12,7 +12,7 @@ echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
 get-debloated-pkgs --add-common --prefer-nano
 
-echo "Building OpenKeeper..."
+echo "Getting app..."
 echo "---------------------------------------------------------------"
 REPO="https://github.com/tonihele/OpenKeeper"
 VERSION="$(git ls-remote "$REPO" HEAD | cut -c 1-9 | head -1)"
