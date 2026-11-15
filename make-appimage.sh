@@ -20,7 +20,7 @@ quick-sharun ./AppDir/bin/OpenKeeper \
     /usr/lib/jvm/java*/conf \
     /usr/lib/jvm/java*/legal \
     /usr/lib/jvm/java*/lib
-echo 'SHARUN_WORKING_DIR=${SHARUN_DIR}/bin' >> ./AppDir/.env
+echo 'SHARUN_WORKING_DIR=${HOME}/.OpenKeeper' >> ./AppDir/.env
 
 # Turn AppDir into AppImage
 quick-sharun --make-appimage
